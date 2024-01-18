@@ -2,9 +2,27 @@
 lerning Cyber Security Basic
 
 ## Network(IpV4, IpV6)
-IP (Internet Protocol) คือ protocol ที่ใช้
+IP (Internet Protocol) is protocol
 
 ## Website Support Security
+
+### CVSS
+CVSS stands for Common Vulnerability Scoring System. It's a standardized method
+for scoring vulnerabilities based on their severity. The score ranges from 0 to 10
+with the higher number indicating more severe risk. Each part of the score has its
+own meaning:
+- Base Score: This represents the overall impact of the vulnerability. A value of
+9.8 would mean that an attacker needs to invest significantly less effort in order
+to exploit this vulnerability.
+- Temporal Score: This measures how long it takes for an attacker to fix the
+vulnerability once they have discovered and exploited it. High values indicate
+that fixing the vulnerability will take a significant amount of time.
+- Environmental Score: This factor considers the level of access an attacker has
+to the system where the vulnerability was found. Lower values represent a
+more secure environment as there is less opportunity for an attacker to gain
+access.
+
+
 ### CVE
 Common Vulnerabilities and Exposures (CVEs) is a computer security program that
 records details of publicly disclosed software vulnerabilities. Each CVE record contains information about the
