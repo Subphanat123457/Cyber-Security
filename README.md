@@ -2,15 +2,22 @@
 เรียนรู้เกี่ยวกับ Cyber Security Basic
 
 ## Network(IpV4, IpV6)
-IPv4 (Internet Protocol version 4): IP address is a unique identifier assigned to each
-device connected to the Internet. It consists of four parts separated by dots:
-the first three represent the network part and the last one represents the host part. The
-network part determines which network or subnet the device belongs to, while the host part
-identifies individual devices within that network. Each number in an IP address can be from 0 to
-255. For example, 192.168.1.1 has
-* Network part: 192.168.1
-* Host part: .1
-IPv6 (Internet Protocol Version 6): This new version of IP addresses was introduced
+IP (Internet Protocol) คือ protocol ที่ใช้
+สำหรับการแชร์ข้อมูลภ
+### IPv4
+1. ที่อยู่: 32 บิต - 0 ถึง 4294967
+2. ซับเน็ตมาสก์: ใช้สำหรับแบ่งเครือข่ายและโฮสต์ส่วนหนึ่งของที่อยู่ ที่
+จำนวน "1" ในการแทนค่าไบนารี่จะกำหนดจำนวนบิตที่ใช้
+ส่วนเครือข่าย ตัวอย่างเช่น หากซับเน็ตมาสก์คือ `255.255
+255.0` จากนั้นจะมี 8 บิตสำหรับเครือข่ายและ 24 บิตสำหรับเจ้าภาพ. 
+ในกรณีนี้ เรามีเครือข่ายคลาส A ที่มีที่อยู่ 16 ล้านที่อยู่
+3. เกตเวย์เริ่มต้น: ระบุเราเตอร์ที่ควรใช้เมื่อส่งข้อมูลนอกเครือข่ายท้องถิ่น
+4. เซิร์ฟเวอร์ DNS: ประกอบด้วยที่อยู่ IP ของเซิร์ฟเวอร์ชื่อโดเมนที่สามารถใช้ได้เพื่อแก้ไขชื่อโดเมนให้เป็นที่อยู่ IP
+#### เครือข่ายที่มีระดับ
+เครือข่ายแบบมีระดับเป็นแนวทางที่แต่ละอุปกรณ์ได้รับมอบหมายคลาสขึ้นอยู่กับความจุหรือฟังก์ชันการทำงาน มีสามคลาส: A, B, C
+คลาส A มีที่อยู่ 16 ล้านที่อยู่ ในขณะที่คลาส B มีเพียง 65,53 ที่อยู่ 6 ที่อยู่และคลาส C มีเพียง 256 ที่อยู่ ระบบนี้ทำให้ง่ายขึ้น
+สำหรับอุปกรณ์เพื่อระบุคลาสของตนเองและรู้ว่าสามารถระบุที่อยู่ได้กี่รายการอาจจะใช้. 
+อย่างไรก็ตามนับตั้งแต่มีการนำเครือข่ายไร้คลาสมาใช้ทั้งหมดตอนนี้อุปกรณ์อยู่ในคลาสเดียวโดยไม่คำนึงถึงความสามารถที่แท้จริง
 
-
-
+### IPv6
+1. ที่อยู่: 128 บิต - 
