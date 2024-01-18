@@ -4,6 +4,20 @@ lerning Cyber Security Basic
 ## Network(IpV4, IpV6)
 IP (Internet Protocol) คือ protocol ที่ใช้
 
+## Website Support Security
+### CVE
+Common Vulnerabilities and Exposures (CVEs) is a computer security program that
+records details of publicly disclosed software vulnerabilities. Each CVE record contains information about the
+identifies known vulnerabilities in software. The number assigned to each CVE
+is unique across the entire database of CVEs.
+
+### CWE
+The Common Weakness Enumeration (CWE) is a standardized taxonomy of security
+weaknesses. Each CWE represents a specific type of security problem or vulnerability.
+Each CWE has one or more associated CVEs.
+
+
+
 ### IPv4
 1. Address: 32 bits - 0 to 4294967
 2. Subnet mask: Used for dividing network and host part of the address. The
@@ -245,4 +259,66 @@ transmissions until there is no conflict with other devices in the network.
 HyperText Transport Protocol is an umbrella term that encompasses both HTTP and
 HTTPS. It refers to the set of rules and procedures that govern how data is transmitted
 between a client and a server over the Internet.
+
+## DNS denine of service
+A DNS DoS attack occurs when a malicious entity floods a Domain Name System (DNS
+server) with queries in order to cause it to become unresponsive. In response to these
+queries, the DNS server may return incorrect IP addresses, causing users to connect to
+incorrect servers. As a result, legitimate users may experience reduced access to online
+services due to misdirected connections.</s>
+
+## FTP
+File Transfer Protocol (FTP) is a method used by computers to send files back and forth
+over the internet. There are two types of FTP: active and passive. Active mode involves
+the client initiating the connection from its own publicly available address, while passive
+mode requires the server to establish the connection from its internal private address.
+
+## SSDP
+Simple Service Discovery Protocol (SSDP) is a networking protocol that enables devices on a
+local area network to automatically discover services provided by other devices without
+having to manually configure them. The purpose of SSDP is to provide a mechanism for
+devices to find out about services offered by other devices on a Local Area Network (LAN).
+This can be useful in scenarios such as home automation systems, where devices need to
+discover whether or not they have compatible partners present in their environment.</s>
+
+## IPS
+Intrusion Prevention Systems (IPS) are security technologies that monitor network traffic
+to identify any potential threats before they reach sensitive areas within a computer's
+operating system. They work by analyzing packets of data sent through a network and comparing
+them against signatures stored in their memory. If a match is found, the IPS will
+generally block the threat rather than allow it to proceed further into the system.
+
+## IDS
+Intrusion Detection Systems (IDS) operate similarly to IPS but instead of blocking
+potential threats, they simply alert the system administrator if any suspicious activity is detected.
+The main difference between the two lies in what happens after detection - IDS only
+notifies whereas IPS takes action based on predefined policies.
+
+## Firewall
+A firewall is a security device that monitors and controls incoming and outgoing network
+traffic. Its primary function is to filter packets of data passing through a network
+interface in order to control which programs have access to the network and which do not.
+
+## Haf back
+Hackers often refer to "backdooring" a system as going "back" because it
+usually involves finding an existing vulnerability in a system and exploiting it to gain
+access to the system from behind. This technique allows hackers to maintain access even
+if all other methods of entry are blocked. Backdoor techniques involve creating a hidden
+password or key that grants unauthorized individuals access to the system once they have
+already gained initial access.
+
+### endpoint UTP
+Universal Twisted Pair (UTP) cable is a type of copper cable designed for
+use with Universal Serial Bus (USB) devices. It consists of four twisted pairs
+of copper wire surrounded by insulation, making it more resistant to electromagnetic interference
+(EMI), radio frequency interference (RFI), and electrical noise.
+
+## resomenote cypto ware
+CryptoWare is a popular encryption software package developed by RSA Security Inc.,
+a subsidiary of Research In Motion Limited (RIM). CryptoWare was first
+released in 1994 and has since become one of the most widely-used crypt
+algorithms available for personal computers. The algorithm is known for its
+security strength compared to other algorithms like DES and Triple Data Encryption Algorithm (3DES).
+It uses a combination of Advanced Encryption Standard (AES) and Data Encryption Key (DE
+Key) technology.</s>
 
